@@ -1,0 +1,33 @@
+# Node rules:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+## Dependency directory
+## Commenting this out is preferred by some people, see
+## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+
+# Comprimidos
+*.zip
+*.tar
+*.rar
+
+# Ficheros ocultos sistema operativo
+.DS_Store
+
+# Contraseñas
+.env
+.ipynb_checkpoints
+
+# La carpeta all_imgs excede el limite máx de Github gratuito, so lo quitamos
+*all_imgs
+*.jpeg
+*failed_*
